@@ -1,0 +1,32 @@
+/* Sidebar.css */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -200px; /* Initially hidden on the left */
+    width: 200px;
+    height: 100%;
+    background-color: black;
+    transition: 0.3s;
+    z-index: 1;
+    margin-top: 60px;
+  }
+  
+  .sidebar.open {
+    left: 0; /* Displayed on the left when open */
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar li {
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    border-bottom: 1px solid #444;
+  }
+  
+  /* Add more styles as needed */
+  
